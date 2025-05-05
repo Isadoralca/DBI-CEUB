@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="54D8067F-ABB6-F774-24C8-081980456F61" name="ImcHistorico" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="94857BE3-5104-907D-4674-F3DC023CF4D2" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="208AFE9B-FE2B-B02E-83F9-995AB280FF2A" name="Pessoa" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="94857BE3-5104-907D-4674-F3DC023CF4D2" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="964C731A-19D2-2864-215A-EF3591D4F791" name="Calcula" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="94857BE3-5104-907D-4674-F3DC023CF4D2" propertySourceId="208AFE9B-FE2B-B02E-83F9-995AB280FF2A" propertyTargetId="54D8067F-ABB6-F774-24C8-081980456F61"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

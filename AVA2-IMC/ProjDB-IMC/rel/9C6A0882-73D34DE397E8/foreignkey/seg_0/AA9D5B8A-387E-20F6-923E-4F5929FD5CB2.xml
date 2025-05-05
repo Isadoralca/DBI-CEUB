@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AA9D5B8A-387E-20F6-923E-4F5929FD5CB2" containerWithKeyObject="FA65407F-D032-B11B-3C3E-776DCA2B679C" localFKIndex="05BD90DF-F055-DF59-A06C-FA5AE580DDAA" name="Calcula">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-04-28 23:46:01 UTC</createdTime>
+<generatorID>964C731A-19D2-2864-215A-EF3591D4F791</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<referredTableLongName>Pessoa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A7117217-1552-9714-D6D1-B81CFB23D112</referredTableID>
+<keyObject>F9A3E795-4772-BAC0-B413-8179B3306335</keyObject>
+<referredKeyID>F9A3E795-4772-BAC0-B413-8179B3306335</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cpfPessoa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

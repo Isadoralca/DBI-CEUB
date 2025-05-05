@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54D8067F-ABB6-F774-24C8-081980456F61" name="ImcHistorico">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-04-08 00:31:04 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="9C6A0882-0BE3-BEDC-35E3-73D34DE397E8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dataMedicaoImc" id="1503B213-F702-8D19-E257-CD0338B1812D">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-04-08 00:31:24 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="9C6A0882-0BE3-BEDC-35E3-73D34DE397E8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoMedicaoImc" id="CB373573-F3EE-B837-D719-AC487CBD1481">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-04-08 00:36:20 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="9C6A0882-0BE3-BEDC-35E3-73D34DE397E8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alturaMedicaoImc" id="0C48099A-AC39-22CF-F580-8CB42428DE00">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-04-08 00:39:27 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="9C6A0882-0BE3-BEDC-35E3-73D34DE397E8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlrImcPessoa" id="355F7CA4-B7B9-130E-4646-6A7974DC8283">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-04-28 23:00:10 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="9C6A0882-0BE3-BEDC-35E3-73D34DE397E8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="analiseImcPessoa" id="FB14E0E4-11FF-B8CB-78B2-1A679B8829D2">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-04-28 23:01:05 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="9C6A0882-0BE3-BEDC-35E3-73D34DE397E8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa" id="0D512738-D78A-BABF-344D-3C18F29EF325">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-04-28 23:02:43 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="9C6A0882-0BE3-BEDC-35E3-73D34DE397E8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa1" id="A8CD8AD1-F4A5-1630-559E-D73AF8BE2484">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-04-28 23:03:30 UTC</createdTime>
+<generatorID>964C731A-19D2-2864-215A-EF3591D4F791</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="9C6A0882-0BE3-BEDC-35E3-73D34DE397E8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>28387ED6-2B72-5C44-64A8-278DBE834579</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54777663-E47F-12C8-504F-6E27E2265374" name="ImcHistorico_PK">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-04-28 23:02:56 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9C6A0882-0BE3-BEDC-35E3-73D34DE397E8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1503B213-F702-8D19-E257-CD0338B1812D</attributeRef>
+<attributeRef>0D512738-D78A-BABF-344D-3C18F29EF325</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

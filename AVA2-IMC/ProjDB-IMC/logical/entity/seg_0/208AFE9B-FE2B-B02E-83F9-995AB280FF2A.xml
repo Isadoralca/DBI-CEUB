@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="208AFE9B-FE2B-B02E-83F9-995AB280FF2A" name="Pessoa">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-04-07 23:44:21 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="9C6A0882-0BE3-BEDC-35E3-73D34DE397E8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomePessoa" id="8D8AE7FB-6283-FE36-A4F4-485F0C875025">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-04-07 23:46:20 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="9C6A0882-0BE3-BEDC-35E3-73D34DE397E8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa" id="28387ED6-2B72-5C44-64A8-278DBE834579">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-04-28 22:31:28 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="9C6A0882-0BE3-BEDC-35E3-73D34DE397E8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexoPessoa" id="CBA373B5-5F43-6F86-6777-F09AC7B39FDB">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-04-29 00:28:47 UTC</createdTime>
+<generatorID>7D9C677A-D553-F439-C324-AF4646EBC3DD</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="9C6A0882-0BE3-BEDC-35E3-73D34DE397E8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F707F33D-96FC-052C-AE84-15838870589C" name="Pessoa_PK">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-04-28 22:31:39 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9C6A0882-0BE3-BEDC-35E3-73D34DE397E8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28387ED6-2B72-5C44-64A8-278DBE834579</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
