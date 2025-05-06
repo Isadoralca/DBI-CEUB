@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BAC646B4-0321-4F8C-3CD3-8A24FC7580A1" name="Vendedor">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-05 23:08:36 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D4CBA450-CF54-8ACD-1DC8-51C7E6E399F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matriculaVendedor" id="6FF6779C-F0C0-2004-1AE8-B10D0736D49C">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-05 23:11:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D4CBA450-CF54-8ACD-1DC8-51C7E6E399F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeVendedor" id="814B9FE8-19B8-83DA-5531-569C5FB89D53">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-05 23:13:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D4CBA450-CF54-8ACD-1DC8-51C7E6E399F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C757F2BB-AEA6-B0B7-564A-F72FAFA30D04" name="vendedor PK">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-05 23:15:06 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D4CBA450-CF54-8ACD-1DC8-51C7E6E399F7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6FF6779C-F0C0-2004-1AE8-B10D0736D49C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
