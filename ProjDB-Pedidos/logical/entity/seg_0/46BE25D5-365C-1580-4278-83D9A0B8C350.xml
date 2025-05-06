@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46BE25D5-365C-1580-4278-83D9A0B8C350" name="Cliente">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-05 23:16:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D4CBA450-CF54-8ACD-1DC8-51C7E6E399F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="0D6478B2-67AC-9981-2F18-4B11408D8835">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-05 23:17:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D4CBA450-CF54-8ACD-1DC8-51C7E6E399F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCliente" id="9269BBA9-C10E-834C-E1C2-D5B6F92A7816">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-05 23:18:31 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D4CBA450-CF54-8ACD-1DC8-51C7E6E399F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enderecoCliente" id="BF6AF84E-0E3D-A4EA-F37A-AB2E9D61E620">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-05 23:19:23 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D4CBA450-CF54-8ACD-1DC8-51C7E6E399F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneCliente" id="6D054760-D61E-CC3A-0330-124ABA73DD41">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-05 23:20:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D4CBA450-CF54-8ACD-1DC8-51C7E6E399F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeCliente" id="842E50F4-7FEC-897C-58A2-B835CE2BEA83">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-05 23:25:33 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D4CBA450-CF54-8ACD-1DC8-51C7E6E399F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepCliente" id="85EFEE86-1616-E6FB-6A8E-56BFA4D6E5F9">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-05 23:27:16 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D4CBA450-CF54-8ACD-1DC8-51C7E6E399F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadoCliente" id="83573C52-77AE-EEBF-4698-4D46157C8569">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-05 23:26:58 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D4CBA450-CF54-8ACD-1DC8-51C7E6E399F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairroCliente" id="A461AAF2-1896-1E4E-EED1-8F900EB085F8">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-05 23:52:22 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D4CBA450-CF54-8ACD-1DC8-51C7E6E399F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matriculaVendedor" id="8500CA82-DB21-9F1A-5047-9EE54D7CB8D1">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-06 00:18:58 UTC</createdTime>
+<generatorID>768D9FB4-F092-B14C-643F-E817590B8A90</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D4CBA450-CF54-8ACD-1DC8-51C7E6E399F7" value="true"/>
+</engineerTo>
+<referedAttribute>6FF6779C-F0C0-2004-1AE8-B10D0736D49C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CEFF221D-6B60-0777-95E4-52E0FDC61CF4" name="cliente PK">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-05 23:18:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D4CBA450-CF54-8ACD-1DC8-51C7E6E399F7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D6478B2-67AC-9981-2F18-4B11408D8835</attributeRef>
+<attributeRef>8500CA82-DB21-9F1A-5047-9EE54D7CB8D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

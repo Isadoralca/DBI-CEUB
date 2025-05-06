@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0FE74F8-C61F-46F0-649A-122266A16CBC" name="Vendedorv1">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-06 00:47:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Vendedor_matriculaVendedor" id="A74C618C-8753-6796-BDF9-03C842B5D035">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-06 00:47:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="004EEA43-8D7C-53BD-43D3-28EB614EEF46" referredColumn="5555E145-8CC0-95AF-6309-99950DC1297E"/>
+</associations>
+</Column>
+<Column name="Pedido_registroPedido" id="D29E78EA-983D-F0DE-C8E2-EAA7BD6CFC40">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-06 00:47:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80E64911-4B8B-BD27-2D4B-44A2E5865630" referredColumn="1157446F-1E29-5174-DA55-F247A7031F3E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76B2320E-6728-BC6A-4667-C6F9BFF12D27" name="Vendedorv1_PK">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-06 00:47:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A74C618C-8753-6796-BDF9-03C842B5D035"/>
+<colUsage columnID="D29E78EA-983D-F0DE-C8E2-EAA7BD6CFC40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D7F4170-5E5F-5338-5070-0CDDD6AE8C41" name="Vendedorv1_Vendedor_FK">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-06 00:47:29 UTC</createdTime>
+<generatorID>172F67D4-0340-E8E4-9B0C-5A2A77A5A7AC</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A74C618C-8753-6796-BDF9-03C842B5D035"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90DDD6D2-1B44-3983-D137-4F21DAAD1733" name="Vendedorv1_Pedido_FK">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-06 00:47:29 UTC</createdTime>
+<generatorID>172F67D4-0340-E8E4-9B0C-5A2A77A5A7AC</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D29E78EA-983D-F0DE-C8E2-EAA7BD6CFC40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
