@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CC95521E-65EA-3A24-4AF6-DFE5C5DF7BFD" name="Telefones">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:36:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="DD3FA21F-AC5C-1053-4655-625AF35F8B1F">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:37:14 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="04010078-B648-FA58-9799-862EC6B152BF">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:37:54 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTelefone" id="BB27BEC1-7F5A-0273-DA05-DBD9153161E9">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:38:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="45293942-0D7E-2991-2642-DF11A011721B">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-20 00:06:40 UTC</createdTime>
+<generatorID>2B794D72-760E-0CA5-F270-BDE1799C757B</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<referedAttribute>CA40A2FD-7C0C-7EDF-AA5A-A93B12FCA81E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="690CC6C4-09F0-F8D1-8206-36FA8EF9790C">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-20 00:06:40 UTC</createdTime>
+<generatorID>2B794D72-760E-0CA5-F270-BDE1799C757B</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<referedAttribute>B03D79CE-7BF2-523A-3645-89CAB30A2665</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="4B15D7F5-09FC-298F-998C-AF435F106931">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-20 00:11:09 UTC</createdTime>
+<generatorID>11562571-60A7-1647-6440-796DFBE962B7</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<referedAttribute>B4D3729C-3F71-6F6F-2E9B-7D1729883AB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="52D44420-C4CD-53A7-58CA-8D27F4830266" name="TelefonesTitular PK">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:38:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD3FA21F-AC5C-1053-4655-625AF35F8B1F</attributeRef>
+<attributeRef>04010078-B648-FA58-9799-862EC6B152BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

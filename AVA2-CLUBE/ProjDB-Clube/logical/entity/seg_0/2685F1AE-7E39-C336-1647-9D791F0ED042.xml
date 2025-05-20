@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2685F1AE-7E39-C336-1647-9D791F0ED042" name="Titular">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:14:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="B4D3729C-3F71-6F6F-2E9B-7D1729883AB9">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:17:31 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="E13A3FEC-F4F6-6893-FFB6-F815271044C0">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:22:21 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parentescoTitular" id="D6C632F2-9488-527A-D127-94F7818DF6C3">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:24:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nascimentoTitular" id="A2A9829A-D2D0-6727-C951-B8878D1DFF89">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:26:32 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="58F19342-2B61-9D6F-7F16-8C7D6E8FE824">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-20 00:08:01 UTC</createdTime>
+<generatorID>7D80BE5E-6869-4DC6-BDE4-CDDA631B5B10</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<referedAttribute>20185E01-FF51-D7D0-7DD1-AD988E72AE69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B1F8FA0-92AF-E1CF-35B9-78C7EA3DBD50" name="Titular PK">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:22:14 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4D3729C-3F71-6F6F-2E9B-7D1729883AB9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

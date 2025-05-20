@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D10F914D-8129-DCA4-EAE4-EFAEC0ED3DEE" name="Endereco">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:27:20 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="20185E01-FF51-D7D0-7DD1-AD988E72AE69">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:27:31 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroEndereco" id="B41BB010-3C21-B49F-1E65-801ACE456E0C">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:28:02 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEndereco" id="0AD550EC-F85E-E48F-15F7-EED1B97DDEC9">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:29:52 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEndereco" id="8077787D-D4E5-6A7D-762A-189CC0DB2A06">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:30:14 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeEndereco" id="424EBE82-419E-EC8A-043D-6FDA18B90F75">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:30:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEndereco" id="79A96F6E-CE59-2859-AEF0-2975B2D8BC2C">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:31:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEndereco" id="65B76D15-9C30-7E97-6013-B8B8DCC04B27">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:31:27 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="31BD93CD-8C87-EDC8-46F3-BE008E1C197C">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-20 00:08:05 UTC</createdTime>
+<generatorID>7D80BE5E-6869-4DC6-BDE4-CDDA631B5B10</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<referedAttribute>B4D3729C-3F71-6F6F-2E9B-7D1729883AB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="2D300A63-6016-F39C-24D9-D837AAEAE7F3">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-20 00:08:16 UTC</createdTime>
+<generatorID>732092C0-0FBC-FD2D-A49B-EA498DBBB0FC</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<referedAttribute>CA40A2FD-7C0C-7EDF-AA5A-A93B12FCA81E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="4BCDB4DC-22CA-9CE8-9FE5-04A307377ADD">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-20 00:08:16 UTC</createdTime>
+<generatorID>732092C0-0FBC-FD2D-A49B-EA498DBBB0FC</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<referedAttribute>B03D79CE-7BF2-523A-3645-89CAB30A2665</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA63CEBA-021A-E0BC-8132-2065BB92B0B9" name="EnderecoTitular PK">
+<createdBy>isadora.carvalho</createdBy>
+<createdTime>2025-05-19 23:28:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B3D5DFBB-D933-5CAC-1DB4-7075239B5341" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>20185E01-FF51-D7D0-7DD1-AD988E72AE69</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
